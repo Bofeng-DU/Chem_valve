@@ -1,0 +1,6 @@
+2020-08-06 09:37:34,727 ; INFO ; pump_execution ; MainThread ; Moving 100 mL from reactor_reactor () to waste_reactor (). (Speed - Initial: 40, Mid: 40, End: 40)
+2020-08-06 09:43:16,032 ; WARNING ; pump_execution ; MainThread ; Negative flask volume: reactor_reactor -100.0 mL. Setting to 0.
+2020-08-06 09:45:35,443 ; INFO ; pump_execution ; MainThread ; Moving 100 mL from reactor_reactor () to waste_reactor (). (Speed - Initial: 40, Mid: 40, End: 40)
+2020-08-06 09:51:16,891 ; WARNING ; pump_execution ; MainThread ; Negative flask volume: reactor_reactor -100 mL. Setting to 0.
+2020-08-06 09:51:16,932 ; INFO ; pump_execution ; MainThread ; Moving 100 mL from flask_separator () to waste_workup (). (Speed - Initial: 40, Mid: 40, End: 40)
+2020-08-06 09:56:55,207 ; WARNING ; pump_execution ; MainThread ; Negative flask volume: flask_separator -100.0 mL. Setting to 0.

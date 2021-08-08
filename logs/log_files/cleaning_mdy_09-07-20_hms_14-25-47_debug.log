@@ -1,0 +1,1403 @@
+2020-09-07 14:25:47,455 ; DEBUG ; graph ; MainThread ; Instantiating node waste_reagents_1:
+	class = ChemputerWaste,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerWaste', 'max_volume': 2000.0, 'current_volume': 0.0, 'name': 'waste_reagents_1', 'lock': None}.
+2020-09-07 14:25:47,456 ; DEBUG ; graph ; MainThread ; Node waste_reagents_1 instantiated.
+2020-09-07 14:25:47,456 ; DEBUG ; graph ; MainThread ; Instantiating node waste_reagents_2:
+	class = ChemputerWaste,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerWaste', 'max_volume': 2000.0, 'current_volume': 0.0, 'name': 'waste_reagents_2', 'lock': None}.
+2020-09-07 14:25:47,464 ; DEBUG ; graph ; MainThread ; Node waste_reagents_2 instantiated.
+2020-09-07 14:25:47,464 ; DEBUG ; graph ; MainThread ; Instantiating node waste_solvents:
+	class = ChemputerWaste,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerWaste', 'max_volume': 2000.0, 'current_volume': 0.0, 'name': 'waste_solvents', 'lock': None}.
+2020-09-07 14:25:47,464 ; DEBUG ; graph ; MainThread ; Node waste_solvents instantiated.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Instantiating node waste_reactor:
+	class = ChemputerWaste,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerWaste', 'max_volume': 2000.0, 'current_volume': 0.0, 'name': 'waste_reactor', 'lock': None}.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Node waste_reactor instantiated.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Instantiating node waste_workup:
+	class = ChemputerWaste,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerWaste', 'max_volume': 2000.0, 'current_volume': 0.0, 'name': 'waste_workup', 'lock': None}.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Node waste_workup instantiated.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Instantiating node flask_holding:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 500.0, 'current_volume': 0.0, 'chemical': 'holding', 'name': 'flask_holding', 'lock': None}.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Node flask_holding instantiated.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Instantiating node waste_aqueous:
+	class = ChemputerWaste,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerWaste', 'max_volume': 2000.0, 'current_volume': 0.0, 'name': 'waste_aqueous', 'lock': None}.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Node waste_aqueous instantiated.
+2020-09-07 14:25:47,465 ; DEBUG ; graph ; MainThread ; Instantiating node flask_bromobenzene:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 100.0, 'current_volume': 100.0, 'chemical': 'bromobenzene', 'name': 'flask_bromobenzene', 'lock': None}.
+2020-09-07 14:25:47,466 ; DEBUG ; graph ; MainThread ; Node flask_bromobenzene instantiated.
+2020-09-07 14:25:47,466 ; DEBUG ; graph ; MainThread ; Instantiating node flask_benzaldehyde:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 100.0, 'current_volume': 100.0, 'chemical': 'benzaldehyde', 'name': 'flask_benzaldehyde', 'lock': None}.
+2020-09-07 14:25:47,466 ; DEBUG ; graph ; MainThread ; Node flask_benzaldehyde instantiated.
+2020-09-07 14:25:47,466 ; DEBUG ; graph ; MainThread ; Instantiating node flask_ether:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 2500.0, 'current_volume': 2500.0, 'chemical': 'ether', 'name': 'flask_ether', 'lock': None}.
+2020-09-07 14:25:47,466 ; DEBUG ; graph ; MainThread ; Node flask_ether instantiated.
+2020-09-07 14:25:47,466 ; DEBUG ; graph ; MainThread ; Instantiating node flask_NaOH:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 250.0, 'current_volume': 250.0, 'chemical': 'NaOH', 'name': 'flask_NaOH', 'lock': None}.
+2020-09-07 14:25:47,467 ; DEBUG ; graph ; MainThread ; Node flask_NaOH instantiated.
+2020-09-07 14:25:47,467 ; DEBUG ; graph ; MainThread ; Instantiating node flask_HCl:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 250.0, 'current_volume': 250.0, 'chemical': 'HCl', 'name': 'flask_HCl', 'lock': None}.
+2020-09-07 14:25:47,467 ; DEBUG ; graph ; MainThread ; Node flask_HCl instantiated.
+2020-09-07 14:25:47,467 ; DEBUG ; graph ; MainThread ; Instantiating node flask_water:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 1000.0, 'current_volume': 1000.0, 'chemical': 'water', 'name': 'flask_water', 'lock': None}.
+2020-09-07 14:25:47,467 ; DEBUG ; graph ; MainThread ; Node flask_water instantiated.
+2020-09-07 14:25:47,468 ; DEBUG ; graph ; MainThread ; Instantiating node flask_toluene:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 1000.0, 'current_volume': 1000.0, 'chemical': 'toluene', 'name': 'flask_toluene', 'lock': None}.
+2020-09-07 14:25:47,468 ; DEBUG ; graph ; MainThread ; Node flask_toluene instantiated.
+2020-09-07 14:25:47,468 ; DEBUG ; graph ; MainThread ; Instantiating node flask_acetyl_bromide:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 100.0, 'current_volume': 100.0, 'chemical': 'acetyl_bromide', 'name': 'flask_acetyl_bromide', 'lock': None}.
+2020-09-07 14:25:47,468 ; DEBUG ; graph ; MainThread ; Node flask_acetyl_bromide instantiated.
+2020-09-07 14:25:47,468 ; DEBUG ; graph ; MainThread ; Instantiating node flask_HCl_Et2O:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 100.0, 'current_volume': 100.0, 'chemical': 'HCl_Et2O', 'name': 'flask_HCl_Et2O', 'lock': None}.
+2020-09-07 14:25:47,469 ; DEBUG ; graph ; MainThread ; Node flask_HCl_Et2O instantiated.
+2020-09-07 14:25:47,469 ; DEBUG ; graph ; MainThread ; Instantiating node flask_dimethylaminoethanol:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 100.0, 'current_volume': 100.0, 'chemical': 'dimethylaminoethanol', 'name': 'flask_dimethylaminoethanol', 'lock': None}.
+2020-09-07 14:25:47,469 ; DEBUG ; graph ; MainThread ; Node flask_dimethylaminoethanol instantiated.
+2020-09-07 14:25:47,469 ; DEBUG ; graph ; MainThread ; Instantiating node flask_vacuum:
+	class = ChemputerVacuum,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerVacuum', 'max_volume': 100.0, 'current_volume': 0.0, 'chemical': 'acetone', 'name': 'flask_vacuum', 'lock': None}.
+2020-09-07 14:25:47,469 ; DEBUG ; graph ; MainThread ; Node flask_vacuum instantiated.
+2020-09-07 14:25:47,470 ; DEBUG ; graph ; MainThread ; Instantiating node filter_filter:
+	class = ChemputerFilter,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFilter', 'max_volume': 250.0, 'current_volume': 0.0, 'chemical': 'air', 'name': 'filter_filter', 'lock': None}.
+2020-09-07 14:25:47,470 ; DEBUG ; graph ; MainThread ; Node filter_filter instantiated.
+2020-09-07 14:25:47,470 ; DEBUG ; graph ; MainThread ; Instantiating node chiller_filter:
+	class = JULABOCF41,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'JULABOCF41', 'address': '192.168.1.4', 'mode': 'ethernet', 'name': 'chiller_filter', 'lock': None}.
+2020-09-07 14:25:47,472 ; DEBUG ; graph ; MainThread ; Node chiller_filter instantiated.
+2020-09-07 14:25:47,473 ; DEBUG ; graph ; MainThread ; Instantiating node stirrer_filter:
+	class = HeiTORQUE_100,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'HeiTORQUE_100', 'address': '192.168.1.3', 'mode': 'ethernet', 'name': 'stirrer_filter', 'lock': None}.
+2020-09-07 14:25:47,475 ; DEBUG ; graph ; MainThread ; Node stirrer_filter instantiated.
+2020-09-07 14:25:47,475 ; DEBUG ; graph ; MainThread ; Instantiating node reactor_reactor:
+	class = ChemputerReactor,
+	params = ['self', 'name', 'current_volume', 'max_volume', 'necks'],
+	graph attrs = {'class': 'ChemputerReactor', 'max_volume': 250.0, 'current_volume': 0.0, 'chemical': 'air', 'name': 'reactor_reactor', 'lock': None}.
+2020-09-07 14:25:47,475 ; DEBUG ; graph ; MainThread ; Node reactor_reactor instantiated.
+2020-09-07 14:25:47,475 ; DEBUG ; graph ; MainThread ; Instantiating node heater_reactor:
+	class = IKARCTDigital,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'IKARCTDigital', 'address': '192.168.1.7', 'mode': 'ethernet', 'name': 'heater_reactor', 'lock': None}.
+2020-09-07 14:25:47,477 ; DEBUG ; graph ; MainThread ; Node heater_reactor instantiated.
+2020-09-07 14:25:47,478 ; DEBUG ; graph ; MainThread ; Instantiating node heater_holding:
+	class = IKARCTDigital,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'IKARCTDigital', 'address': '192.168.1.6', 'mode': 'ethernet', 'name': 'heater_holding', 'lock': None}.
+2020-09-07 14:25:47,479 ; DEBUG ; graph ; MainThread ; Node heater_holding instantiated.
+2020-09-07 14:25:47,479 ; DEBUG ; graph ; MainThread ; Instantiating node flask_separator:
+	class = ChemputerSeparator,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerSeparator', 'max_volume': 250.0, 'current_volume': 0.0, 'chemical': 'air', 'name': 'flask_separator', 'lock': None}.
+2020-09-07 14:25:47,479 ; DEBUG ; graph ; MainThread ; Node flask_separator instantiated.
+2020-09-07 14:25:47,479 ; DEBUG ; graph ; MainThread ; Instantiating node sensor_conductivity:
+	class = ConductivitySensor,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'ConductivitySensor', 'port': 'COM4', 'name': 'sensor_conductivity', 'lock': None}.
+2020-09-07 14:25:49,483 ; DEBUG ; graph ; MainThread ; Node sensor_conductivity instantiated.
+2020-09-07 14:25:49,483 ; DEBUG ; graph ; MainThread ; Instantiating node stirrer_separator:
+	class = HeiTORQUE_100,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'HeiTORQUE_100', 'address': '192.168.1.5', 'mode': 'ethernet', 'name': 'stirrer_separator', 'lock': None}.
+2020-09-07 14:25:49,486 ; DEBUG ; graph ; MainThread ; Node stirrer_separator instantiated.
+2020-09-07 14:25:49,487 ; DEBUG ; graph ; MainThread ; Instantiating node rotavap:
+	class = IKARV10,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'IKARV10', 'max_volume': 500.0, 'current_volume': 0.0, 'chemical': 'air', 'address': '192.168.1.8', 'mode': 'ethernet', 'name': 'rotavap', 'lock': None}.
+2020-09-07 14:25:49,500 ; DEBUG ; graph ; MainThread ; Node rotavap instantiated.
+2020-09-07 14:25:50,408 ; DEBUG ; graph ; MainThread ; Node rotavap initialised.
+2020-09-07 14:25:50,408 ; DEBUG ; graph ; MainThread ; Instantiating node flask_isoprop:
+	class = ChemputerFlask,
+	params = ['self', 'name', 'current_volume', 'max_volume'],
+	graph attrs = {'class': 'ChemputerFlask', 'max_volume': 2500.0, 'current_volume': 2500.0, 'name': 'flask_isoprop', 'lock': None}.
+2020-09-07 14:25:50,409 ; DEBUG ; graph ; MainThread ; Node flask_isoprop instantiated.
+2020-09-07 14:25:50,409 ; DEBUG ; graph ; MainThread ; Instantiating node vacuum_rota:
+	class = CVC3000,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'CVC3000', 'address': '192.168.1.2', 'mode': 'ethernet', 'name': 'vacuum_rota', 'lock': None}.
+2020-09-07 14:25:50,424 ; DEBUG ; graph ; MainThread ; Node vacuum_rota instantiated.
+2020-09-07 14:25:54,637 ; DEBUG ; graph ; MainThread ; Node vacuum_rota initialised.
+2020-09-07 14:25:54,637 ; DEBUG ; graph ; MainThread ; Instantiating node sampling_pump:
+	class = GEMINI88,
+	params = ['self', 'port', 'device_name', 'connect_on_instantiation', 'soft_fail_for_testing', 'address', 'mode'],
+	graph attrs = {'class': 'GEMINI88', 'port': 'COM7', 'name': 'sampling_pump', 'lock': None}.
+2020-09-07 14:25:56,657 ; DEBUG ; graph ; MainThread ; Node sampling_pump instantiated.
+2020-09-07 14:26:09,467 ; DEBUG ; graph ; MainThread ; Node sampling_pump initialised.
+2020-09-07 14:26:09,467 ; DEBUG ; graph ; MainThread ; Instantiating node NMR_sampling:
+	class = SpinsolveNMR,
+	params = ['self', 'spinsolve_options_path', 'address', 'port', 'auto_connect'],
+	graph attrs = {'class': 'SpinsolveNMR', 'address': '192.168.1.99', 'name': 'NMR_sampling', 'lock': None}.
+2020-09-07 14:26:11,565 ; DEBUG ; graph ; MainThread ; Node NMR_sampling instantiated.
+2020-09-07 14:26:11,643 ; DEBUG ; graph ; MainThread ; Node NMR_sampling initialised.
+2020-09-07 14:26:11,644 ; DEBUG ; graph ; MainThread ; Instantiating node valve_1:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.20', 'name': 'valve_1', 'lock': None}.
+2020-09-07 14:26:11,793 ; DEBUG ; graph ; MainThread ; Node valve_1 instantiated.
+2020-09-07 14:26:11,793 ; DEBUG ; graph ; MainThread ; Instantiating node valve_2:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.21', 'name': 'valve_2', 'lock': None}.
+2020-09-07 14:26:11,939 ; DEBUG ; graph ; MainThread ; Node valve_2 instantiated.
+2020-09-07 14:26:11,940 ; DEBUG ; graph ; MainThread ; Instantiating node valve_3:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.22', 'name': 'valve_3', 'lock': None}.
+2020-09-07 14:26:12,087 ; DEBUG ; graph ; MainThread ; Node valve_3 instantiated.
+2020-09-07 14:26:12,088 ; DEBUG ; graph ; MainThread ; Instantiating node valve_4:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.23', 'name': 'valve_4', 'lock': None}.
+2020-09-07 14:26:12,234 ; DEBUG ; graph ; MainThread ; Node valve_4 instantiated.
+2020-09-07 14:26:12,235 ; DEBUG ; graph ; MainThread ; Instantiating node valve_5:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.24', 'name': 'valve_5', 'lock': None}.
+2020-09-07 14:26:12,381 ; DEBUG ; graph ; MainThread ; Node valve_5 instantiated.
+2020-09-07 14:26:12,382 ; DEBUG ; graph ; MainThread ; Instantiating node valve_6:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.25', 'name': 'valve_6', 'lock': None}.
+2020-09-07 14:26:12,529 ; DEBUG ; graph ; MainThread ; Node valve_6 instantiated.
+2020-09-07 14:26:12,529 ; DEBUG ; graph ; MainThread ; Instantiating node valve_vacuum:
+	class = ChemputerValve,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerValve', 'address': '192.168.1.27', 'name': 'valve_vacuum', 'lock': None}.
+2020-09-07 14:26:12,676 ; DEBUG ; graph ; MainThread ; Node valve_vacuum instantiated.
+2020-09-07 14:26:13,934 ; DEBUG ; graph ; MainThread ; Instantiating node pump_1:
+	class = ChemputerPump,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerPump', 'max_volume': 10.0, 'current_volume': 0.0, 'address': '192.168.1.10', 'name': 'pump_1', 'lock': None}.
+2020-09-07 14:26:14,070 ; DEBUG ; graph ; MainThread ; Node pump_1 instantiated.
+2020-09-07 14:26:14,070 ; DEBUG ; graph ; MainThread ; Instantiating node pump_2:
+	class = ChemputerPump,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerPump', 'max_volume': 10.0, 'current_volume': 0.0, 'address': '192.168.1.11', 'name': 'pump_2', 'lock': None}.
+2020-09-07 14:26:14,206 ; DEBUG ; graph ; MainThread ; Node pump_2 instantiated.
+2020-09-07 14:26:14,206 ; DEBUG ; graph ; MainThread ; Instantiating node pump_3:
+	class = ChemputerPump,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerPump', 'max_volume': 10.0, 'current_volume': 0.0, 'address': '192.168.1.12', 'name': 'pump_3', 'lock': None}.
+2020-09-07 14:26:14,342 ; DEBUG ; graph ; MainThread ; Node pump_3 instantiated.
+2020-09-07 14:26:14,342 ; DEBUG ; graph ; MainThread ; Instantiating node pump_4:
+	class = ChemputerPump,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerPump', 'max_volume': 10.0, 'current_volume': 0.0, 'address': '192.168.1.13', 'name': 'pump_4', 'lock': None}.
+2020-09-07 14:26:14,479 ; DEBUG ; graph ; MainThread ; Node pump_4 instantiated.
+2020-09-07 14:26:14,479 ; DEBUG ; graph ; MainThread ; Instantiating node pump_5:
+	class = ChemputerPump,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerPump', 'max_volume': 10.0, 'current_volume': 0.0, 'address': '192.168.1.14', 'name': 'pump_5', 'lock': None}.
+2020-09-07 14:26:14,615 ; DEBUG ; graph ; MainThread ; Node pump_5 instantiated.
+2020-09-07 14:26:14,615 ; DEBUG ; graph ; MainThread ; Instantiating node pump_6:
+	class = ChemputerPump,
+	params = ['self', 'address', 'name', 'auto_init'],
+	graph attrs = {'class': 'ChemputerPump', 'max_volume': 10.0, 'current_volume': 0.0, 'address': '192.168.1.15', 'name': 'pump_6', 'lock': None}.
+2020-09-07 14:26:14,751 ; DEBUG ; graph ; MainThread ; Node pump_6 instantiated.
+2020-09-07 14:26:25,488 ; DEBUG ; chempiler ; MainThread ; All devices ready!
+2020-09-07 14:27:25,280 ; DEBUG ; pump_execution ; MainThread ; Movement path: [[(flask_ether, valve_1, (0, 4)), (valve_1, valve_2, (1, 2)), (valve_2, valve_3, (1, 2)), (valve_3, valve_4, (1, 2)), (valve_4, reactor_reactor, (4, 0))]]
+2020-09-07 14:27:25,281 ; DEBUG ; pump_execution ; MainThread ; Using path: flask_ether -> valve_1 -> valve_1 -> valve_2 -> valve_3 -> valve_4 -> reactor_reactor
+2020-09-07 14:27:25,283 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 10.0
+2020-09-07 14:27:25,283 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 10.0
+2020-09-07 14:27:25,285 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 20.0
+2020-09-07 14:27:25,285 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 20.0
+2020-09-07 14:27:25,287 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 30.0
+2020-09-07 14:27:25,287 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 30.0
+2020-09-07 14:27:25,290 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 40.0
+2020-09-07 14:27:25,290 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 40.0
+2020-09-07 14:27:25,293 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 50.0
+2020-09-07 14:27:25,293 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 50.0
+2020-09-07 14:27:25,294 ; DEBUG ; pump_execution ; MainThread ; [
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,295 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:27:25,296 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,297 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,298 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,299 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,300 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,301 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,302 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,303 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,304 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:27:25,305 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:27:25,306 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:27:25,307 ; DEBUG ; pump_execution ; MainThread ; ]
+2020-09-07 14:27:25,307 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_ether () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 14:27:25,307 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:27:25,307 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:27:26,154 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:27:26,154 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:27:57,003 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:27:57,003 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:27:57,114 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:27:58,097 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:27:58,097 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:27:58,209 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:28:14,194 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:28:14,194 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:28:14,306 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:28:14,418 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:28:15,373 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:28:15,373 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:28:15,485 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:28:15,596 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:28:46,430 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:28:46,430 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:28:46,541 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:28:46,653 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:28:46,764 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:28:47,716 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:28:47,716 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:28:47,827 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:28:47,939 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:28:48,051 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:29:04,210 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:29:04,210 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:29:04,322 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:29:04,433 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:29:04,544 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:29:05,489 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:29:05,489 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:29:05,600 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:29:05,711 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:29:05,822 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:29:36,645 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:29:36,645 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:29:36,755 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:29:36,867 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:29:36,977 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:29:37,931 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:29:37,931 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:29:38,043 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:29:38,154 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:29:38,266 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:29:54,443 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:29:54,443 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:29:54,555 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:29:54,666 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:29:54,778 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:29:55,724 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:29:55,724 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:29:55,835 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:29:55,947 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:29:56,058 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:30:26,892 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:30:26,892 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:30:27,004 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:30:27,116 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:30:27,227 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:30:28,179 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:30:28,179 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:30:28,291 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:30:28,402 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:30:28,514 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:30:44,659 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:30:44,659 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:30:44,770 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:30:44,882 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:30:44,994 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:30:45,939 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:30:45,939 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:30:46,050 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:30:46,161 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:30:46,272 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:31:17,114 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:31:17,114 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:31:17,225 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:31:17,336 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:31:17,447 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:31:18,401 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:31:18,401 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:31:18,513 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:31:18,625 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:31:18,737 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:31:34,914 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:31:34,914 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:31:35,025 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:31:35,136 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:31:36,002 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:31:36,002 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:31:36,114 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:31:36,226 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:31:53,071 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:31:53,071 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:31:53,182 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:31:54,050 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:31:54,050 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:31:54,162 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:32:10,380 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:32:10,380 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:32:11,248 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:32:11,248 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:34:12,007 ; DEBUG ; pump_execution ; MainThread ; Movement path: [[(flask_ether, valve_1, (0, 4)), (valve_1, valve_2, (1, 2)), (valve_2, valve_3, (1, 2)), (valve_3, valve_4, (1, 2)), (valve_4, reactor_reactor, (4, 0))]]
+2020-09-07 14:34:12,008 ; DEBUG ; pump_execution ; MainThread ; Using path: flask_ether -> valve_1 -> valve_1 -> valve_2 -> valve_3 -> valve_4 -> reactor_reactor
+2020-09-07 14:34:12,010 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 10.0
+2020-09-07 14:34:12,010 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 10.0
+2020-09-07 14:34:12,012 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 20.0
+2020-09-07 14:34:12,012 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 20.0
+2020-09-07 14:34:12,014 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 30.0
+2020-09-07 14:34:12,014 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 30.0
+2020-09-07 14:34:12,017 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 40.0
+2020-09-07 14:34:12,017 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 40.0
+2020-09-07 14:34:12,020 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 50.0
+2020-09-07 14:34:12,020 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 50.0
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ; [
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,022 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,023 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,024 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,025 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,026 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,027 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,028 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,029 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,030 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,031 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,032 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,033 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:34:12,034 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:34:12,034 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:34:12,034 ; DEBUG ; pump_execution ; MainThread ; ]
+2020-09-07 14:34:12,034 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_ether () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 14:34:12,034 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:34:12,034 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:34:13,013 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:34:13,013 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:34:43,885 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:34:43,885 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:34:43,996 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:34:44,969 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:34:44,969 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:34:45,080 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:35:01,021 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:35:01,021 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:35:01,134 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:35:01,245 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:35:02,202 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:35:02,202 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:35:02,313 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:35:02,424 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:35:33,274 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:35:33,274 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:35:33,385 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:35:33,496 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:35:33,607 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:35:34,560 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:35:34,560 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:35:34,671 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:35:34,782 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:35:34,893 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:35:50,903 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:35:50,903 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:35:51,015 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:35:51,126 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:35:51,237 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:35:52,183 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:35:52,183 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:35:52,294 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:35:52,405 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:35:52,517 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:36:23,361 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:36:23,361 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:36:23,472 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:36:23,583 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:36:23,694 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:36:24,648 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:36:24,648 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:36:24,759 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:36:24,870 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:36:24,982 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:36:41,111 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:36:41,111 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:36:41,222 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:36:41,333 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:36:41,444 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:36:42,392 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:36:42,392 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:36:42,502 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:36:42,613 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:36:42,725 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:37:13,555 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:37:13,555 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:37:13,666 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:37:13,778 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:37:13,889 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:37:14,840 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:37:14,840 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:37:14,951 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:37:15,062 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:37:15,175 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:37:31,439 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:37:31,439 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 14:37:31,551 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:37:31,663 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:37:31,774 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:37:32,720 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:37:32,720 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 14:37:32,831 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:37:32,942 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:37:33,054 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:38:03,876 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:03,876 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 14:38:03,988 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 14:38:04,099 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:38:04,210 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:38:05,162 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:05,162 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:38:05,273 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:38:05,384 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 14:38:05,495 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:38:21,656 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:21,656 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 14:38:21,767 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 14:38:21,878 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:38:22,745 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:22,745 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:38:22,856 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 14:38:22,967 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:38:39,794 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:39,850 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 14:38:39,963 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 14:38:40,878 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:40,984 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:38:41,097 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 14:38:57,301 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:57,327 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:38:58,195 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:38:58,244 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:45:28,593 ; DEBUG ; pump_execution ; MainThread ; Movement path: [[(flask_water, valve_6, (0, 5)), (valve_6, valve_5, (2, 1)), (valve_5, valve_4, (2, 1)), (valve_4, reactor_reactor, (4, 0))]]
+2020-09-07 14:45:28,593 ; DEBUG ; pump_execution ; MainThread ; Using path: flask_water -> valve_6 -> valve_6 -> valve_5 -> valve_4 -> reactor_reactor
+2020-09-07 14:45:28,595 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}) 10.0
+2020-09-07 14:45:28,595 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 10.0
+2020-09-07 14:45:28,596 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}) 20.0
+2020-09-07 14:45:28,597 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 20.0
+2020-09-07 14:45:28,598 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}) 30.0
+2020-09-07 14:45:28,599 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 30.0
+2020-09-07 14:45:28,601 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}) 40.0
+2020-09-07 14:45:28,601 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 40.0
+2020-09-07 14:45:28,603 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}) 50.0
+2020-09-07 14:45:28,603 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 50.0
+2020-09-07 14:45:28,604 ; DEBUG ; pump_execution ; MainThread ; [
+2020-09-07 14:45:28,604 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 5, -1)}),
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,605 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 5, -1)}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,606 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,607 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 5, -1)}),
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,608 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 5, -1)}),
+2020-09-07 14:45:28,609 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:45:28,610 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 5, -1)}),
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,611 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,612 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,613 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 14:45:28,614 ; DEBUG ; pump_execution ; MainThread ; ]
+2020-09-07 14:45:28,614 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_water () to reactor_reactor (). (Speed - Initial: 40, Mid: 40, End: 40)
+2020-09-07 14:45:28,615 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:45:28,615 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 5 to -1
+2020-09-07 14:45:29,355 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:45:29,355 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:45:44,945 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:45:44,945 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 14:45:45,056 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 14:45:46,031 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:45:46,031 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:45:46,142 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:46:02,320 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:02,320 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 5 to -1
+2020-09-07 14:46:02,431 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 14:46:02,542 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 14:46:03,531 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:03,531 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:46:03,642 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:46:03,753 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:46:19,860 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:19,860 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 14:46:19,971 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 14:46:20,082 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:46:21,068 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:21,068 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:46:21,180 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:46:21,291 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:46:37,985 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:37,985 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 5 to -1
+2020-09-07 14:46:38,097 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 14:46:38,208 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 14:46:39,197 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:39,197 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:46:39,308 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:46:39,418 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:46:55,646 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:55,646 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 14:46:55,757 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 14:46:55,868 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:46:56,855 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:46:56,855 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:46:56,966 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:46:57,077 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:47:13,899 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:47:13,899 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 5 to -1
+2020-09-07 14:47:14,010 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 14:47:14,121 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 14:47:15,110 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:47:15,110 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:47:15,222 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:47:15,334 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:47:31,479 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:47:31,479 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 14:47:31,591 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 14:47:31,702 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:47:32,688 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:47:32,688 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:47:32,800 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:47:32,911 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:47:49,710 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:47:49,710 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 5 to -1
+2020-09-07 14:47:49,821 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 14:47:49,933 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 14:47:50,921 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:47:50,921 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:47:51,032 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:47:51,144 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:48:07,279 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:48:07,279 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 14:48:07,392 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 14:48:07,503 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:48:08,492 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:48:08,492 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:48:08,603 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 14:48:08,714 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:48:25,554 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:48:25,554 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 14:48:25,666 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 14:48:26,654 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:48:26,654 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 14:48:26,765 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 14:48:42,966 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:48:42,966 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 14:48:43,954 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 14:48:43,954 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:00:58,268 ; DEBUG ; pump_execution ; MainThread ; Movement path: [[(flask_ether, valve_1, (0, 4)), (valve_1, valve_2, (1, 2)), (valve_2, valve_3, (1, 2)), (valve_3, valve_4, (1, 2)), (valve_4, reactor_reactor, (4, 0))]]
+2020-09-07 15:00:58,269 ; DEBUG ; pump_execution ; MainThread ; Using path: flask_ether -> valve_1 -> valve_1 -> valve_2 -> valve_3 -> valve_4 -> reactor_reactor
+2020-09-07 15:00:58,271 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 10.0
+2020-09-07 15:00:58,271 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 10.0
+2020-09-07 15:00:58,273 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 20.0
+2020-09-07 15:00:58,273 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 20.0
+2020-09-07 15:00:58,275 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 30.0
+2020-09-07 15:00:58,275 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 30.0
+2020-09-07 15:00:58,277 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 40.0
+2020-09-07 15:00:58,278 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 40.0
+2020-09-07 15:00:58,280 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 50.0
+2020-09-07 15:00:58,280 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422CA0648>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 50.0
+2020-09-07 15:00:58,282 ; DEBUG ; pump_execution ; MainThread ; [
+2020-09-07 15:00:58,282 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,282 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,282 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,282 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,283 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,284 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,285 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,286 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,287 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,288 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,289 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,290 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("valve_1", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,291 ; DEBUG ; pump_execution ; MainThread ;         ("pump_1", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("valve_2", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,292 ; DEBUG ; pump_execution ; MainThread ;         ("pump_2", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;         ("valve_3", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;         ("pump_3", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,293 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,294 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:00:58,294 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,294 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:00:58,294 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:00:58,294 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:00:58,294 ; DEBUG ; pump_execution ; MainThread ; ]
+2020-09-07 15:00:58,294 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_ether () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 15:00:58,295 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:00:58,295 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 15:00:59,275 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:00:59,275 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 15:01:30,146 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:01:30,146 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 15:01:30,258 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 15:01:31,231 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:01:31,231 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:01:31,343 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 15:01:47,412 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:01:47,412 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 15:01:47,525 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 15:01:47,636 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 15:01:48,593 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:01:48,593 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 15:01:48,704 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:01:48,815 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:02:19,639 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:02:19,639 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 15:02:19,750 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 15:02:19,861 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 15:02:19,973 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 15:02:20,924 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:02:20,924 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:02:21,035 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:02:21,146 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 15:02:21,256 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:02:37,507 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:02:37,507 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 15:02:37,618 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 15:02:37,729 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 15:02:37,841 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:02:38,787 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:02:38,787 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 15:02:38,898 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:02:39,009 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:02:39,120 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:03:09,938 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:03:09,938 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 15:03:10,050 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 15:03:10,161 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 15:03:10,273 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 15:03:11,226 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:03:11,226 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:03:11,337 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:03:11,448 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 15:03:11,560 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:03:27,838 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:03:27,838 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 15:03:27,949 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 15:03:28,061 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 15:03:28,172 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:03:29,118 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:03:29,118 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 15:03:29,229 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:03:29,340 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:03:29,451 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:04:00,264 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:04:00,264 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 15:04:00,375 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 15:04:00,486 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 15:04:00,598 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 15:04:01,549 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:04:01,549 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:04:01,661 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:04:01,774 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 15:04:01,885 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:04:18,021 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:04:18,021 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 4 to -1
+2020-09-07 15:04:18,133 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 15:04:18,244 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 15:04:18,355 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:04:19,303 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:04:19,303 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_1
+2020-09-07 15:04:19,414 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:04:19,525 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:04:19,637 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:04:50,452 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:04:50,452 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_1 routing 1 to -1
+2020-09-07 15:04:50,564 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 2 to -1
+2020-09-07 15:04:50,675 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 15:04:50,786 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 15:04:51,739 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:04:51,739 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:04:51,850 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:04:51,961 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_1
+2020-09-07 15:04:52,072 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:05:08,384 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:05:08,384 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_2 routing 1 to -1
+2020-09-07 15:05:08,497 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 2 to -1
+2020-09-07 15:05:08,608 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:05:09,481 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:05:09,481 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:05:09,592 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_2
+2020-09-07 15:05:09,704 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:05:26,501 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:05:26,501 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_3 routing 1 to -1
+2020-09-07 15:05:26,612 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 2 to -1
+2020-09-07 15:05:27,483 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:05:27,483 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:05:27,595 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_3
+2020-09-07 15:05:43,742 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:05:43,742 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:05:44,613 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:05:44,613 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:06:13,625 ; DEBUG ; pump_execution ; MainThread ; Movement path: [[(flask_HCl, valve_6, (0, 3)), (valve_6, valve_5, (2, 1)), (valve_5, valve_4, (2, 1)), (valve_4, reactor_reactor, (4, 0))]]
+2020-09-07 15:06:13,625 ; DEBUG ; pump_execution ; MainThread ; Using path: flask_HCl -> valve_6 -> valve_6 -> valve_5 -> valve_4 -> reactor_reactor
+2020-09-07 15:06:13,627 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 10.0
+2020-09-07 15:06:13,627 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 10.0
+2020-09-07 15:06:13,628 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 20.0
+2020-09-07 15:06:13,628 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 20.0
+2020-09-07 15:06:13,630 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 30.0
+2020-09-07 15:06:13,630 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 30.0
+2020-09-07 15:06:13,632 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 40.0
+2020-09-07 15:06:13,632 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 40.0
+2020-09-07 15:06:13,634 ; DEBUG ; pump_execution ; MainThread ; Validating src volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}) 50.0
+2020-09-07 15:06:13,635 ; DEBUG ; pump_execution ; MainThread ; Validating dest volume (<ChemputerAPI.pump_valve_api.ChemputerPump object at 0x0000020422C9F808>, {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}) 50.0
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ; [
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 3, -1)}),
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:06:13,636 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 3, -1)}),
+2020-09-07 15:06:13,637 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:06:13,638 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 3, -1)}),
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,639 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,640 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 3, -1)}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:06:13,641 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,642 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 3, -1)}),
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 20}),
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,643 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;         ("valve_6", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;         ("pump_6", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,644 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;         ("valve_5", {'cmd': ('route', 2, -1)}),
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 1, -1)}),
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;         ("pump_5", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('sink', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;         ("valve_4", {'cmd': ('route', 4, -1)}),
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,645 ; DEBUG ; pump_execution ; MainThread ;     [
+2020-09-07 15:06:13,646 ; DEBUG ; pump_execution ; MainThread ;         ("pump_4", {'cmd': ('source', 0), 'volume': 10.0, 'speed': 40}),
+2020-09-07 15:06:13,646 ; DEBUG ; pump_execution ; MainThread ;     ],
+2020-09-07 15:06:13,646 ; DEBUG ; pump_execution ; MainThread ; ]
+2020-09-07 15:06:13,646 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_HCl () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 15:06:13,646 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:06:13,646 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 3 to -1
+2020-09-07 15:06:14,387 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:06:14,387 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_6
+2020-09-07 15:06:45,317 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:06:45,317 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 15:06:45,428 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 15:06:46,181 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:06:46,181 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:06:46,293 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 15:07:02,336 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:07:02,336 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 3 to -1
+2020-09-07 15:07:02,447 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 15:07:02,559 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 15:07:03,547 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:07:03,547 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_6
+2020-09-07 15:07:03,659 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:07:03,771 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:07:34,679 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:07:34,679 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 15:07:34,790 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 15:07:34,901 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:07:35,889 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:07:35,889 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:07:36,000 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 15:07:36,111 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:07:53,084 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:07:53,084 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 3 to -1
+2020-09-07 15:07:53,195 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 15:07:53,306 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 15:07:54,294 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:07:54,294 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_6
+2020-09-07 15:07:54,405 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:07:54,516 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:08:25,433 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:08:25,433 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 15:08:25,544 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 15:08:25,655 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:08:26,642 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:08:26,642 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:08:26,754 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 15:08:26,865 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:08:43,270 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:08:43,270 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 3 to -1
+2020-09-07 15:08:43,383 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 15:08:43,494 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 15:08:44,481 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:08:44,481 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_6
+2020-09-07 15:08:44,592 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:08:44,703 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:09:15,618 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:09:15,618 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 15:09:15,731 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 15:09:15,842 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:09:16,830 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:09:16,830 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:09:16,941 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 15:09:17,053 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:09:33,995 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:09:33,995 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 3 to -1
+2020-09-07 15:09:34,106 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 15:09:34,218 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 15:09:35,206 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:09:35,206 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 20) Pump::pump_6
+2020-09-07 15:09:35,317 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:09:35,427 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:10:06,347 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:10:06,347 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_6 routing 2 to -1
+2020-09-07 15:10:06,458 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 1 to -1
+2020-09-07 15:10:06,570 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:10:07,557 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:10:07,557 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:10:07,669 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_6
+2020-09-07 15:10:07,780 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:10:24,741 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:10:24,741 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_5 routing 2 to -1
+2020-09-07 15:10:24,852 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 1 to -1
+2020-09-07 15:10:25,842 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:10:25,842 ; DEBUG ; pump_execution ; MainThread ; Pumping 10.0 mL (Speed: 40) Pump::pump_4
+2020-09-07 15:10:25,953 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_5
+2020-09-07 15:10:42,181 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:10:42,181 ; DEBUG ; pump_execution ; MainThread ; Switched valve valve_4 routing 4 to -1
+2020-09-07 15:10:43,170 ; DEBUG ; pump_execution ; MainThread ; 
+2020-09-07 15:10:43,170 ; DEBUG ; pump_execution ; MainThread ; Dispensing 10.0 mL (Speed: 40) Pump::pump_4

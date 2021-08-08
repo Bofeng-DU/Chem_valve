@@ -1,0 +1,5 @@
+2020-09-07 14:27:25,307 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_ether () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 14:34:12,034 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_ether () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 14:45:28,614 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_water () to reactor_reactor (). (Speed - Initial: 40, Mid: 40, End: 40)
+2020-09-07 15:00:58,294 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_ether () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
+2020-09-07 15:06:13,646 ; INFO ; pump_execution ; MainThread ; Moving 50 mL from flask_HCl () to reactor_reactor (). (Speed - Initial: 20, Mid: 40, End: 40)
